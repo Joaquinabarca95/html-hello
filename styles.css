@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(233, 230, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    text-align: center;
+    background: #fff;
+    height: 60px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: 34%;
+}
+.post {
+    width: 32%;
+    background: white;
+    margin: 50px 0;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    padding: 10px 10px;  
+}
+.title h2 {
+    font-size: 0.9rem;
+}
+.title p {
+    position: absolute;
+    left: 390px;
+    color: grey;
+    padding-top: 2px;
+    font-size: 0.6rem;
+}
+
+img {
+    width: 100%;
+}
+
+.description {
+    font-size: 0.7rem;
+    padding: 15px;
+}
